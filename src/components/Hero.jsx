@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="bg-gradient-to-r from-blue-600/10 to-purple-600/10 pb-20">
       <section className="h-[50vh] sm:h-[60vh] flex flex-col justify-center items-center text-center">
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 bg-clip-text text-transparent mb-4 md:mb-6 leading-tight">
+        <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 bg-clip-text text-transparent mb-4 md:mb-6 leading-tight mt-20">
           Shivanand Singh
           {/* <span className="block text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mt-1 md:mt-2">
             Web Developer

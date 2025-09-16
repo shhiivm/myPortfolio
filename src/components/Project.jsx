@@ -7,7 +7,7 @@ const Projects = () => {
     <section id="projects" className="py-20 px-8">
       <h2 className="text-3xl font-bold text-center mb-12">Projects</h2>
       <div className="grid md:grid-cols-3 gap-8">
-        {projectList.slice(0, 3).map((project, index) => (
+        {projectList.slice(6, 9).map((project, index) => (
           <div
             key={index}
             className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition"

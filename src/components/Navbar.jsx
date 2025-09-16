@@ -10,6 +10,11 @@ const Navbar = () => {
       </h1>
       <ul className="flex space-x-6 items-center">
         <li>
+          <a href="/#" className="hover:text-blue-500">
+            Home
+          </a>
+        </li>
+        <li>
           <a href="/#about" className="hover:text-blue-500">
             About
           </a>

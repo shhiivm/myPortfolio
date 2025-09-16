@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-// import About from "../components/About";
+import About from "../components/About";
 import Projects from "../components/Project";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
@@ -13,7 +13,7 @@ const HomePage = () => {
     <div>
       <Navbar />
       <Hero />
-      {/* <About /> */}
+      <About />
       <Projects />
       <Skills />
       <Contact />

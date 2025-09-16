@@ -1,33 +1,99 @@
-body{
-  background-color: crimson;
-  color: white;
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
-.container{
+
+body {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
 }
 
-input{
-  width: 30vw;
-  height: 4vh;
-}
-
-.pass-copy{
-
-  margin: 15px 15px;
-  /* width: 500px; */
-
-  background-color: white;
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  width: 350px;
   text-align: center;
-  /* border-radius: 20px; */
 }
 
-#get-text {
-  position: relative; 
-  display: inline-block;
+h2 {
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
   border: none;
-  /* padding-bottom: 10px; */
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+#length::placeholder,
+#get-text::placeholder {
+  color: #aaa;
+}
+
+.pass-copy {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.pass-copy input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.pass-copy img {
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.2s ease;
+}
+
+.pass-copy img:hover {
+  transform: scale(1.2);
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffcc00;
+  color: #333;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffdb4d;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: small responsive tweak */
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+    padding: 30px 20px;
+  }
 }

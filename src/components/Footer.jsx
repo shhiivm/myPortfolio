@@ -19,13 +19,13 @@ const Footer = () => {
         >
           LinkedIn
         </a>
-        <a
+        {/* <a
           href="https://leetcode.com/shhiivm"
           target="_blank"
           rel="noopener noreferrer"
         >
           LeetCode
-        </a>
+        </a> */}
       </div>
     </footer>
   );

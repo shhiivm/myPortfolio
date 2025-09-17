@@ -19,6 +19,7 @@ const Navbar = () => {
             About
           </a>
         </li>
+        {/*
         <li>
           <a href="/#projects" className="hover:text-blue-500">
             Projects
@@ -32,8 +33,8 @@ const Navbar = () => {
         <li>
           <a href="/#contact" className="hover:text-blue-500">
             Contact
-          </a>
-        </li>
+          </a> 
+        </li>*/}
         <li>
           <a
             href="/shivanand-singh-resume.pdf"
